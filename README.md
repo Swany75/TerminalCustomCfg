@@ -8,7 +8,7 @@ Download Windows Terminal [here](https://aka.ms/terminal) if you haven't already
 Run the following command in PowerShell to install **Oh My Posh**:
 
 ```powershell
-Install-Module -Name oh-my-posh -Force -SkipPublisherCheck
+winget install JanDeDobbeleer.OhMyPosh
 ```
 
 ### 2. Clone the Repository
