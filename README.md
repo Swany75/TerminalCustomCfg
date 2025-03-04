@@ -33,15 +33,12 @@ notepad $PROFILE
 ```
 
 ```powershell
-Import-Module oh-my-posh
-Set-PoshPrompt -Theme "C:\Users\{{YourUsrName}}\AppData\Local\Programs\oh-my-posh\themes\swany.yml"
-cls
+oh-my-posh init pwsh --config "C:\Users\{{YourUsrName}}\AppData\Local\Programs\oh-my-posh\themes\swany.yml" | Invoke-Expression
 ```
 
 Modify the Windows Terminal profile configuration to load your theme.
 
 ## Resources
-
-- [Nerd Fonts Cheat Sheet](https://www.nerdfonts.com/cheat-sheet)
-- [Oh My Posh Themes Documentation](https://ohmyposh.dev/docs/themes)
-- [Customize & Beautify your Windows Terminal (2022 Edition)](https://dev.to/ansonh/customize-beautify-your-windows-terminal-2022-edition-541l)
+> - [Nerd Fonts Cheat Sheet](https://www.nerdfonts.com/cheat-sheet)
+> - [Oh My Posh Themes Documentation](https://ohmyposh.dev/docs/themes)
+> - [Customize & Beautify your Windows Terminal (2022 Edition)](https://dev.to/ansonh/customize-beautify-your-windows-terminal-2022-edition-541l)
