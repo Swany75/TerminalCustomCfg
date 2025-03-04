@@ -1,6 +1,6 @@
 # My Windows Terminal Custom Configuration
-![main.png](./main.png)
-Download Windows Terminal [here](https://aka.ms/terminal) if you haven't already.
+![main.png](./main.png)<br>
+Download [Windows Terminal](https://aka.ms/terminal) and [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hack.zip) if you haven't already.
 
 ## Set Up
 
@@ -21,12 +21,12 @@ git clone https://github.com/Swany75/WinTerminalCustomCfg.git
 After cloning, move the WinTerminalCustomCfg folder to the Oh My Posh themes folder. 
 
 ```powershell
-cp .\swany.json "C:\Users\{{YourUsrName}}\AppData\Local\Programs\oh-my-posh\themes\swany.json"
+cp .\swany.yml "C:\Users\{{YourUsrName}}\AppData\Local\Programs\oh-my-posh\themes\swany.yml"
 ```
 
 ### 3. Set Up Your Custom Theme
 
-Place your custom theme file, swany.json, in the Documents/PowerShell/Themes folder (or any location you prefer).
+Place your custom theme file, swany.yml, in the Documents/PowerShell/Themes folder (or any location you prefer).
 
 ```powershell
 notepad $PROFILE
@@ -34,7 +34,7 @@ notepad $PROFILE
 
 ```powershell
 Import-Module oh-my-posh
-Set-PoshPrompt -Theme "C:\Users\{{YourUsrName}}\AppData\Local\Programs\oh-my-posh\themes\swany.json"
+Set-PoshPrompt -Theme "C:\Users\{{YourUsrName}}\AppData\Local\Programs\oh-my-posh\themes\swany.yml"
 cls
 ```
 
