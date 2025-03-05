@@ -1,5 +1,5 @@
 # My Windows Terminal Custom Configuration
-![main.png](./main.png)<br>
+![main.png](./Windows/main.png)<br>
 Download [Windows Terminal](https://aka.ms/terminal) and [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hack.zip) if you haven't already.
 
 ## Set Up
