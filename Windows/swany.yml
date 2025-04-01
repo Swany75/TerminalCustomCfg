@@ -8,7 +8,7 @@ blocks:
   - type: prompt
     alignment: left
     segments:
-      - template: " \U000f0328 "
+      - template: " {{ .Icon }} "
         foreground: "#16B290"
         powerline_symbol: ""
         background: "#263238"
